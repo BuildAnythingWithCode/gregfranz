@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: borderee-box;
+}
+
+:root {
+  --dark-color: #1E2629;
+  --light-color: #FEFAEF;
+  --medium-color: #92A4AB;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Bebas Nueu";
+  font-size: 30px;
+}
+
+p {
+  font-family: "Alumni Sans Pinstripe";
+  font-size: 25px;
+}
+
+h1,
+h2,
+p {
+  color: var(--dark-color);
+}
