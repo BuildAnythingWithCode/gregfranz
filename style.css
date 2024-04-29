@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 0px solid red;
+  border: 1px solid red;
 }
 
 :root {
@@ -43,32 +43,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-  min-height: 75vh;
+  min-height: 100vh;
 }
 
 #logo-flexbox img {
-  max-height: 25vh;
-  margin-bottom: 8vh;
+  max-width: 10vw;
 }
 
-#fe-logo-text h1 {
-  font-size: 4vw;
+#logo-text-container #fe {
+  font-size: 2vw;
   letter-spacing: 2rem;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 
-#d-logo-text h1 {
-  font-size: 2.5vw;
-  letter-spacing: 1.5rem;
-}
-
-#logo-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 25vh;
+#logo-text-container #d {
+  font-size: 1vw;
+  letter-spacing: 2rem;
 }
 
 #logo-icon i {
@@ -77,6 +69,24 @@ body {
 }
 
 
+
+
+@media (max-width: 786px) {
+  #logo-flexbox img {
+    max-width: 30vw;
+  }
+
+  #logo-text-container #fe {
+    font-size: 6vw;
+    letter-spacing: 1rem;
+    margin-bottom: 2vh;
+  }
+
+  #logo-text-container #d {
+    font-size: 4vw;
+    letter-spacing: 1rem;
+  }
+}
 
 
 
