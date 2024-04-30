@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+/*
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry)
@@ -16,7 +25,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 
-/*
+
 let sections = document.querySelectorAll('section');
 
 window.onscroll = () => {
