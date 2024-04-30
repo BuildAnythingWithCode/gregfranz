@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 :root {
   --dark-color: #1E2629;
   --light-color: #FEFAEF;
   --medium-color: #92A4AB;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -20,7 +24,7 @@ h1 {
 h2 {
   font-family: "Bebas Neue";
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p {
@@ -82,13 +86,17 @@ body {
   color: var(--dark-color);
 }
 
-.section {
+#section {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   max-width: 100vw;
   margin: 10px;
+}
+
+#navbar-links {
+  display: flex;
 }
 
 #logo-navbar {
@@ -116,12 +124,46 @@ li a {
 }
 
 #intro-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
   width: 100%;
   min-height: 100vh;
   background-image: url('Assets/Mountains.png');
   background-size: cover;
   background-position: center;
 }
+
+#into-section-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+#into-section-text-container {
+  max-width: 50%;
+}
+
+#into-section-text-container h1,
+#into-section-text-container h2,
+#into-section-text-container p {
+  margin: 20px;
+}
+
+#intro-section-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+#intro-section-image-container img {
+  width: 400px; /* This is where I was trying to lower the size of my image, but it isn't working */
+}
+
+
 
 @media (max-width: 786px) {
 
