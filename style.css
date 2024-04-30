@@ -49,17 +49,17 @@ body {
 }
 
 #logo-flexbox img {
-  max-width: 10vw;
+  max-width: 150px;
 }
 
 #logo-text-container #fe {
-  font-size: 2vw;
+  font-size: 2.5rem;
   letter-spacing: 2rem;
-  margin-bottom: 3vh;
+  margin-bottom: 1.5rem;
 }
 
 #logo-text-container #d {
-  font-size: 1vw;
+  font-size: 1.5rem;
   letter-spacing: 2rem;
 }
 
@@ -72,18 +72,14 @@ body {
 
 
 @media (max-width: 786px) {
-  #logo-flexbox img {
-    max-width: 30vw;
-  }
 
   #logo-text-container #fe {
-    font-size: 6vw;
+    font-size: 2.5rem;
     letter-spacing: 1rem;
-    margin-bottom: 2vh;
   }
 
   #logo-text-container #d {
-    font-size: 4vw;
+    font-size: 1.5rem;
     letter-spacing: 1rem;
   }
 }
