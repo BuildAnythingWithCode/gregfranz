@@ -273,6 +273,34 @@ hr {
   box-shadow: 0px 0px 10px rgb(139, 139, 139);
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+
+
+
+#contact {
+  margin-top: 100px;
+}
+
+#contact-text {
+  margin-top: 100px;
+}
+
+#contact-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+}
+
+
 
 
 
@@ -360,8 +388,29 @@ hr {
   #skills-vd h3 {
     margin: 20px;
   }
+
+  #contact {
+    height: 80vh;
+  }
+
+  #contact-text p {
+    margin: 20px;
+  }
+
+  #contact-footer {
+    height: 20vh;
+    width: 80vw;
+  }
+
+
   
 }
+
+
+
+
+
+
 
 
 
